@@ -13,7 +13,7 @@ header>span{
 
 .sidebar{
     background-color: black;
-    height: 1000px;
+    height: 1500px;
     width: 175px;
     position: absolute;
     right: 0;
@@ -87,6 +87,60 @@ li>a:hover{
     padding-top: 50px;
 }
 
+.six{
+    grid-column: 1/4;
+    grid-row: 4;
+    background-color: #E6E1E1;
+    margin-top: 50px;
+    padding-left: 10px;
+}
+
+.seven{
+    grid-column: 4/6;
+    grid-row: 4;
+    background-color: lightgray;
+    margin-top: 50px;
+    padding-left: 10px;
+}
+
+.eight{
+    grid-column: 1/4;
+    grid-row: 5;
+    background-color: lightgray;
+    margin-top: 50px;
+    padding-left: 10px;
+}
+
+.nine{
+    grid-column: 4/6;
+    grid-row: 5;
+    background-color: #E6E1E1;
+    margin-top: 50px;
+    padding-left: 10px;
+}
+
+.ten{
+    grid-column: 3;
+    grid-row: 6;
+    margin-top: 50px;
+}
+
 .headerCenter{
     text-align: center;
+}
+
+td{
+    padding: 5px;
+}
+
+.cellCol1{
+    background-color: lightgray;
+}
+
+.cellCol2{
+    background-color: #E6E1E1;
+}
+
+table{
+    margin-left: 20px;
 }
