@@ -13,7 +13,7 @@ header>span{
 
 .sidebar{
     background-color: black;
-    height: 1700px;
+    height: 2000px;
     width: 175px;
     position: absolute;
     right: 0;
@@ -144,8 +144,4 @@ td{
     background-color: #E6E1E1;
     padding: 0 60 0 20px;
     white-space: nowrap;
-}
-
-table{
-    margin-left: 25px;
 }
